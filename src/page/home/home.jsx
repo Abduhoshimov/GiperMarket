@@ -18,7 +18,7 @@ export const Home = () => {
     const { data: data3 } = useGetComputers()
     const { data: data4 } = useGetBrand()
     return (
-        <div>
+        <div className='mt-[-40px]'>
             <section>
                 <SimpleSlider />
             </section>

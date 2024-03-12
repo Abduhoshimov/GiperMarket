@@ -9,7 +9,7 @@ export const MainLayout = () => {
             <header className='sticky top-0 bg-white  z-20'>
                 <Header />
             </header>
-            <main className='mt-[-40px]'>
+            <main className=''>
                 <Outlet />
             </main>
             <footer>
